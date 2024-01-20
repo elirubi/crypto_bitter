@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.diamondGreen {
+    
+    background:
+     linear-gradient(to bottom right, #18C619, #FCFCFC 40%) bottom right,
+     linear-gradient(to bottom left,#18C619, #FCFCFC 40%) bottom left,
+     linear-gradient(to top left,#18C619, #FCFCFC 40%) top left,
+     linear-gradient(to top right,#18C619, #FCFCFC 40%) top right;
+     
+    background-size:50% 50%;
+    background-repeat:no-repeat;
+
+    /* background: radial-gradient(50% 50% at 50% 50%, #18C619 0%, rgba(255, 255, 255, 0) 100%); */
+  }
+
+.smallCaps {
+
+    font-variant-caps: small-caps;
+}
+
